@@ -26,7 +26,7 @@
 						"savePassword": false,
 						"profileName": "mssql-container"
 					}
-				]
+				],
 				"workbench.colorTheme": "Solarized Dark"
 			},
 
@@ -50,7 +50,8 @@
 	"postCreateCommand": "bash .devcontainer/mssql/postCreateCommand.sh 'P@ssw0rd' './bin/Debug/' './.devcontainer/mssql/'",
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {},
-		"ghcr.io/devcontainers/features/git:1": {}
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/dotnet:2": {}
 	}
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
